@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".github/assets/logo.png" alt="Luminara" width="480">
+  <img src=".github/assets/logo-wide.png" alt="Luminara" width="100%">
 </p>
 
 <p align="center">
