@@ -96,13 +96,9 @@ a cloud language model (below). It connects to the internet only to:
   service under its terms,
 - download web novels, if you use that add-on.
 
-## Problems and suggestions
+## Security
 
-[Open an issue](https://github.com/caemlyn/Luminara-releases/issues/new/choose). For a bug, include
-the version (Settings, About) and the log from `~/Luminara/Logs/`. Read through it first: the log
-can include text from the book you were converting.
-
-To report a security problem, see [SECURITY.md](SECURITY.md). Please don't open a public issue for it.
+To report a security problem, see [SECURITY.md](SECURITY.md).
 
 ## License
 

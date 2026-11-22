@@ -8,7 +8,7 @@ Only the latest release gets fixes. Please update before reporting.
 
 Report it privately through
 [GitHub's private vulnerability reporting](https://github.com/caemlyn/Luminara-releases/security/advisories/new).
-Don't open a public issue.
+This is the only way to send a report; the repository does not take issues.
 
 Include the Luminara version, your macOS version, what you found, and the steps to reproduce it.
 You'll get a reply within a week. A fix ships in a new release, and the report stays private
