@@ -1,0 +1,48 @@
+Luminara Freeware License
+
+Copyright (c) 2025-2026 Caemlyn. All rights reserved.
+
+This license applies to the Luminara application and the files published in this repository
+(together, the "Software"). By installing or using the Software you agree to these terms.
+
+1. Grant. Caemlyn grants you a free, non-exclusive, non-transferable license to download,
+   install and use the Software on any number of computers that you own or control, for
+   personal or commercial purposes.
+
+2. Restrictions. You may not:
+   a. sell, rent, lease, sublicense or otherwise distribute the Software or any part of it,
+      including by bundling it with other software or hosting it for download elsewhere. You
+      may share a link to this repository;
+   b. modify, decompile, disassemble or reverse engineer the Software, except to the extent
+      that applicable law expressly permits it despite this restriction;
+   c. remove or change any copyright, license or attribution notice in the Software;
+   d. use the name "Luminara" or Caemlyn's name or logos to endorse or promote anything
+      without written permission.
+
+3. Third-party components. The Software includes components licensed by third parties, such as
+   the fonts listed in THIRD_PARTY_NOTICES.md. Those components are governed by their own
+   licenses, and nothing in this license limits your rights under them.
+
+4. Models and content. The Software downloads machine-learning models and Python packages
+   from third parties at your request. They are not part of the Software and are provided
+   under their own licenses, which you are responsible for following. You are responsible
+   for having the right to convert any book or text you use with the Software, and for how
+   you use the audio it produces.
+
+5. Ownership. The Software is licensed, not sold. Caemlyn keeps all rights, title and
+   interest in it that are not expressly granted here.
+
+6. No warranty. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+   PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+
+7. Limitation of liability. IN NO EVENT SHALL CAEMLYN OR ITS CONTRIBUTORS BE LIABLE FOR ANY
+   CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+   ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OF OR OTHER DEALINGS IN
+   THE SOFTWARE, INCLUDING LOSS OF DATA.
+
+8. Termination. This license ends automatically if you break any of its terms. When it ends,
+   you must stop using the Software and delete all copies.
+
+9. Changes. A later release of the Software may come with a different license. The license
+   that came with a release continues to apply to that release.
