@@ -85,25 +85,29 @@ voices, models and settings are kept.
 Install voice models on the **Voice Models** page. Each one is downloaded from Hugging Face the
 first time you install it and then runs on your Mac. Download sizes are the app's own estimates.
 
-| Model | Languages | Reads with emotion | Copies a voice | Download | Sample rate | Hugging Face | Notes |
-|---|---|:-:|:-:|--:|--:|---|---|
-| **Kokoro** | English, Japanese, Chinese, French, Spanish, Italian, Portuguese, Hindi |  |  | 355 MB | 24 kHz | [mlx-community/Kokoro-82M-bf16](https://huggingface.co/mlx-community/Kokoro-82M-bf16) | The recommended first model. Small and fast, with many built-in voices. |
-| **Soprano** | English |  |  | 217 MB | 32 kHz | [mlx-community/Soprano-80M-bf16](https://huggingface.co/mlx-community/Soprano-80M-bf16) | Very fast. The smallest download. |
-| **Spark** | English |  |  | 2.9 GB | 16 kHz | [mlx-community/Spark-TTS-0.5B-bf16](https://huggingface.co/mlx-community/Spark-TTS-0.5B-bf16) | Compact and fast. |
-| **Chatterbox** | English | Yes | Yes | 928 MB | 24 kHz | [mlx-community/chatterbox-8bit](https://huggingface.co/mlx-community/chatterbox-8bit) |  |
-| **Marvis** | English |  | Yes | 2.3 GB | 24 kHz | [Marvis-AI/marvis-tts-250m-v0.1-MLX-fp16](https://huggingface.co/Marvis-AI/marvis-tts-250m-v0.1-MLX-fp16) |  |
-| **OuteTTS** | English |  | Yes | 2.5 GB | 24 kHz | [mlx-community/Llama-OuteTTS-1.0-1B-fp16](https://huggingface.co/mlx-community/Llama-OuteTTS-1.0-1B-fp16) |  |
-| **CSM** | English |  | Yes | 6.2 GB | 24 kHz | [mlx-community/csm-1b](https://huggingface.co/mlx-community/csm-1b) | Gated on Hugging Face: accept its terms and add an access token in Settings. |
-| **Dia** | English |  |  | 3.5 GB | 44.1 kHz | [mlx-community/Dia-1.6B-fp16](https://huggingface.co/mlx-community/Dia-1.6B-fp16) | Reads a two-speaker dialogue, with sounds that are not words. |
-| **Ming-3.0** | English, Chinese, German, Spanish, French, Korean, Japanese |  | Yes | 3.0 GB | 44.1 kHz | [mlx-community/Ming-3.0-tts-0.5B-bf16](https://huggingface.co/mlx-community/Ming-3.0-tts-0.5B-bf16) | Very clear, with five English voices. Reads in one steady tone. |
-| **Qwen3-TTS** | Chinese, English, Japanese, Korean, German, French, Russian, Portuguese, Spanish, Italian | Yes |  | 4.5 GB | 24 kHz | [mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-bf16](https://huggingface.co/mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-bf16) | Copies a voice with the separate Qwen3 voice copying download (below). |
-| **Orpheus** | English | Yes |  | 6.6 GB | 24 kHz | [mlx-community/orpheus-3b-0.1-ft-bf16](https://huggingface.co/mlx-community/orpheus-3b-0.1-ft-bf16) | The most expressive: reads with emotion tags such as laugh, sigh or gasp. |
-| **Maya** | English |  | Yes | 6.0 GB | 24 kHz | [dl3239491/maya1-mlx-fp16](https://huggingface.co/dl3239491/maya1-mlx-fp16) |  |
-| **Breeze TTS 2** | English, Chinese | Yes | Yes | 7.6 GB | 24 kHz | [mlx-community/Breeze-TTS-2-mlx](https://huggingface.co/mlx-community/Breeze-TTS-2-mlx) | Very natural. Can design a voice from a description and keep it. |
-| **Drama 3 (4-bit)** | English, Chinese, Japanese, Korean, French, German, Spanish | Yes | Yes | 23.8 GB | 44.1 kHz | [mlx-community/fish-audio-drama-3-4bit](https://huggingface.co/mlx-community/fish-audio-drama-3-4bit) | Drama 3 in a smaller download. Needs a Mac with 32 GB of memory. |
-| **Drama 3** | English, Chinese, Japanese, Korean, French, German, Spanish | Yes | Yes | 72.4 GB | 44.1 kHz | [mlx-community/fish-audio-drama-3-bf16](https://huggingface.co/mlx-community/fish-audio-drama-3-bf16) | Very expressive. Needs a Mac with 96 GB of memory. |
+| Model | Languages | Emotion | Copies a voice | Download | Hugging Face | Notes |
+|---|---|:-:|:-:|--:|---|---|
+| **Kokoro** | EN JA ZH FR ES IT PT HI |  |  | 355 MB | [mlx-community/Kokoro-82M-bf16](https://huggingface.co/mlx-community/Kokoro-82M-bf16) | The recommended first model. Small and fast, with many built-in voices. |
+| **Soprano** | EN |  |  | 217 MB | [mlx-community/Soprano-80M-bf16](https://huggingface.co/mlx-community/Soprano-80M-bf16) | Very fast. The smallest download. |
+| **Spark** | EN |  |  | 2.9 GB | [mlx-community/Spark-TTS-0.5B-bf16](https://huggingface.co/mlx-community/Spark-TTS-0.5B-bf16) | Compact and fast. |
+| **Chatterbox** | EN | Yes | Yes | 928 MB | [mlx-community/chatterbox-8bit](https://huggingface.co/mlx-community/chatterbox-8bit) |  |
+| **Marvis** | EN |  | Yes | 2.3 GB | [Marvis-AI/marvis-tts-250m-v0.1-MLX-fp16](https://huggingface.co/Marvis-AI/marvis-tts-250m-v0.1-MLX-fp16) |  |
+| **OuteTTS** | EN |  | Yes | 2.5 GB | [mlx-community/Llama-OuteTTS-1.0-1B-fp16](https://huggingface.co/mlx-community/Llama-OuteTTS-1.0-1B-fp16) |  |
+| **CSM** | EN |  | Yes | 6.2 GB | [mlx-community/csm-1b](https://huggingface.co/mlx-community/csm-1b) | Gated on Hugging Face: accept its terms and add an access token in Settings. |
+| **Dia** | EN |  |  | 3.5 GB | [mlx-community/Dia-1.6B-fp16](https://huggingface.co/mlx-community/Dia-1.6B-fp16) | Reads a two-speaker dialogue, with sounds that are not words. |
+| **Ming-3.0** | EN ZH DE ES FR KO JA |  | Yes | 3.0 GB | [mlx-community/Ming-3.0-tts-0.5B-bf16](https://huggingface.co/mlx-community/Ming-3.0-tts-0.5B-bf16) | Very clear, with five English voices. Reads in one steady tone. |
+| **Qwen3-TTS** | ZH EN JA KO DE FR RU PT ES IT | Yes |  | 4.5 GB | [mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-bf16](https://huggingface.co/mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-bf16) | Copies a voice with the separate Qwen3 voice copying download (below). |
+| **Orpheus** | EN | Yes |  | 6.6 GB | [mlx-community/orpheus-3b-0.1-ft-bf16](https://huggingface.co/mlx-community/orpheus-3b-0.1-ft-bf16) | The most expressive: reads with emotion tags such as laugh, sigh or gasp. |
+| **Maya** | EN |  | Yes | 6.0 GB | [dl3239491/maya1-mlx-fp16](https://huggingface.co/dl3239491/maya1-mlx-fp16) |  |
+| **Breeze TTS 2** | EN ZH | Yes | Yes | 7.6 GB | [mlx-community/Breeze-TTS-2-mlx](https://huggingface.co/mlx-community/Breeze-TTS-2-mlx) | Very natural. Can design a voice from a description and keep it. |
+| **Drama 3 (4-bit)** | EN ZH JA KO FR DE ES | Yes | Yes | 23.8 GB | [mlx-community/fish-audio-drama-3-4bit](https://huggingface.co/mlx-community/fish-audio-drama-3-4bit) | Drama 3 in a smaller download. Needs a Mac with 32 GB of memory. |
+| **Drama 3** | EN ZH JA KO FR DE ES | Yes | Yes | 72.4 GB | [mlx-community/fish-audio-drama-3-bf16](https://huggingface.co/mlx-community/fish-audio-drama-3-bf16) | Very expressive. Needs a Mac with 96 GB of memory. |
 
-Books made with models of different sample rates (16, 24, 32 and 44.1 kHz) can't be joined into
+Languages: EN English, ZH Chinese, JA Japanese, KO Korean, FR French, DE German, ES Spanish,
+IT Italian, PT Portuguese, RU Russian, HI Hindi. **Emotion**: reads with emotion. **Copies a
+voice**: can read in a voice from a short recording.
+
+Audio from models with different sample rates (16, 24, 32 and 44.1 kHz) can't be joined into
 one file. A single WAV file is limited to 4 GB, about 13.5 hours at 44.1 kHz; use M4B or MP3 for
 longer books.
 
