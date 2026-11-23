@@ -114,15 +114,15 @@ longer books.
 <details>
 <summary>Other files some models download with them</summary>
 
-| Model | Also downloads |
-|---|---|
-| Chatterbox | [mlx-community/S3TokenizerV2](https://huggingface.co/mlx-community/S3TokenizerV2) |
-| Marvis | [kyutai/moshiko-pytorch-bf16](https://huggingface.co/kyutai/moshiko-pytorch-bf16) |
-| OuteTTS | [mlx-community/dac-speech-24khz-1.5kbps](https://huggingface.co/mlx-community/dac-speech-24khz-1.5kbps)<br>[OuteAI/Llama-OuteTTS-1.0-1B](https://huggingface.co/OuteAI/Llama-OuteTTS-1.0-1B) |
-| CSM | [kyutai/moshiko-pytorch-bf16](https://huggingface.co/kyutai/moshiko-pytorch-bf16)<br>[unsloth/Llama-3.2-1B](https://huggingface.co/unsloth/Llama-3.2-1B) |
-| Dia | [mlx-community/descript-audio-codec-44khz](https://huggingface.co/mlx-community/descript-audio-codec-44khz) |
-| Orpheus | [mlx-community/snac_24khz](https://huggingface.co/mlx-community/snac_24khz) |
-| Maya | [mlx-community/snac_24khz](https://huggingface.co/mlx-community/snac_24khz)<br>[mlx-community/orpheus-3b-0.1-ft-bf16](https://huggingface.co/mlx-community/orpheus-3b-0.1-ft-bf16) |
+| Model | Also downloads | License |
+|---|---|---|
+| Chatterbox | [mlx-community/S3TokenizerV2](https://huggingface.co/mlx-community/S3TokenizerV2) | [Apache-2.0](model-licenses/extra-s3tokenizer-v2.md) |
+| Marvis | [kyutai/moshiko-pytorch-bf16](https://huggingface.co/kyutai/moshiko-pytorch-bf16) | [CC-BY-4.0](model-licenses/extra-moshiko.md) |
+| OuteTTS | [mlx-community/dac-speech-24khz-1.5kbps](https://huggingface.co/mlx-community/dac-speech-24khz-1.5kbps)<br>[OuteAI/Llama-OuteTTS-1.0-1B](https://huggingface.co/OuteAI/Llama-OuteTTS-1.0-1B) | [CDLA-Permissive-2.0](model-licenses/extra-dac-speech.md)<br>[CC-BY-NC-SA-4.0 + Llama 3.2](model-licenses/outetts.md) |
+| CSM | [kyutai/moshiko-pytorch-bf16](https://huggingface.co/kyutai/moshiko-pytorch-bf16)<br>[unsloth/Llama-3.2-1B](https://huggingface.co/unsloth/Llama-3.2-1B) | [CC-BY-4.0](model-licenses/extra-moshiko.md)<br>[Llama 3.2 Community License](model-licenses/extra-llama-3.2-1b.md) |
+| Dia | [mlx-community/descript-audio-codec-44khz](https://huggingface.co/mlx-community/descript-audio-codec-44khz) | [MIT](model-licenses/extra-descript-audio-codec.md) |
+| Orpheus | [mlx-community/snac_24khz](https://huggingface.co/mlx-community/snac_24khz) | [MIT](model-licenses/extra-snac.md) |
+| Maya | [mlx-community/snac_24khz](https://huggingface.co/mlx-community/snac_24khz)<br>[mlx-community/orpheus-3b-0.1-ft-bf16](https://huggingface.co/mlx-community/orpheus-3b-0.1-ft-bf16) | [MIT](model-licenses/extra-snac.md)<br>[Apache-2.0 + Llama 3.2](model-licenses/orpheus.md) |
 
 </details>
 
@@ -223,7 +223,10 @@ tool, read from Hugging Face on 2026-11-23:
 
 The audio tools are Apache-2.0 or MIT (Qwen3 voice copying, Whisper, Qwen3-ASR, VibeVoice-ASR,
 Qwen3 Forced Aligner, MossFormer2), CC-BY-4.0 (Parakeet), and Meta's SAM License (SAM-Audio),
-which is free of charge but forbids some uses. Their licenses are in the same folder.
+which is free of charge but forbids some uses. Their licenses are in the same folder, and so
+are those of the extra files some voice models download (audio codecs and tokenizers). One of
+them matters for CSM: it downloads Llama 3.2 tokenizer files, which are under Meta's Llama 3.2
+license.
 
 Only convert books you have the right to use. Luminara does not remove DRM.
 

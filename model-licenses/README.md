@@ -41,6 +41,22 @@ personal listening.
 | MossFormer2 SE | Apache-2.0 | Permissive | [mossformer2.md](mossformer2.md) |
 | SAM-Audio Large | Meta SAM License | Royalty-free, with use restrictions | [sam-audio.md](sam-audio.md) |
 
+## Extra files some voice models download
+
+Some voice models download parts of other repositories with them: an audio codec, or a
+tokenizer. These are their licenses. OuteTTS also downloads tokenizer files from its original
+model, and Maya from Orpheus; those are covered by [outetts.md](outetts.md) and
+[orpheus.md](orpheus.md).
+
+| Download | Used by | License | Kind | Details |
+|---|---|---|---|---|
+| S3TokenizerV2 | Chatterbox | Apache-2.0 | Permissive | [extra-s3tokenizer-v2.md](extra-s3tokenizer-v2.md) |
+| Moshi audio codec (Mimi) | Marvis, CSM | CC-BY-4.0 | Permissive, with attribution | [extra-moshiko.md](extra-moshiko.md) |
+| DAC speech codec | OuteTTS | CDLA-Permissive-2.0 | Permissive | [extra-dac-speech.md](extra-dac-speech.md) |
+| Llama 3.2 1B tokenizer | CSM | Llama 3.2 Community License | Free to use, with Meta's terms | [extra-llama-3.2-1b.md](extra-llama-3.2-1b.md) |
+| Descript audio codec (44 kHz) | Dia | MIT | Permissive | [extra-descript-audio-codec.md](extra-descript-audio-codec.md) |
+| SNAC audio codec (24 kHz) | Orpheus, Maya | MIT | Permissive | [extra-snac.md](extra-snac.md) |
+
 ## Language models
 
 Luminara does not download a language model. With LM Studio or Ollama you download and load
