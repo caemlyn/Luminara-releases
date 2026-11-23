@@ -1,4 +1,4 @@
-# Drama 3: model license
+# Drama 3: license
 
 | | |
 |---|---|

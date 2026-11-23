@@ -1,4 +1,4 @@
-# Breeze TTS 2: model license
+# Breeze TTS 2: license
 
 | | |
 |---|---|

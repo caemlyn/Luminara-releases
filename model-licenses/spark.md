@@ -1,4 +1,4 @@
-# Spark: model license
+# Spark: license
 
 | | |
 |---|---|

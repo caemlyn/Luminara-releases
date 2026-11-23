@@ -1,4 +1,4 @@
-# CSM: model license
+# CSM: license
 
 | | |
 |---|---|

@@ -21,7 +21,7 @@ the feature that needs them, and each is used under its own license:
 
 - **Voice, speech-recognition and language models** from Hugging Face. The license is shown on
   each model's Hugging Face page, and [model-licenses](model-licenses/README.md) keeps a copy of
-  each voice model's license.
+  the license of each voice model and audio tool.
 - **Python packages** installed into Luminara's own Python environment, including MLX, mlx-audio,
   mlx-lm, huggingface_hub, NumPy, SciPy, soundfile, librosa, misaki and their dependencies.
 - **lightnovel-crawler**, installed into a separate environment only if you add the web-novel feature.

@@ -1,4 +1,4 @@
-# Maya: model license
+# Maya: license
 
 | | |
 |---|---|

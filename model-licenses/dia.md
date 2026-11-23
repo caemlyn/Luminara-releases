@@ -1,4 +1,4 @@
-# Dia: model license
+# Dia: license
 
 | | |
 |---|---|

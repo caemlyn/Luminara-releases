@@ -1,4 +1,4 @@
-# Drama 3 (4-bit): model license
+# Drama 3 (4-bit): license
 
 | | |
 |---|---|

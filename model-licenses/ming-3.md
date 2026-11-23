@@ -1,4 +1,4 @@
-# Ming-3.0: model license
+# Ming-3.0: license
 
 | | |
 |---|---|

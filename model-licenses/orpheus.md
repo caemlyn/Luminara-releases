@@ -1,4 +1,4 @@
-# Orpheus: model license
+# Orpheus: license
 
 | | |
 |---|---|

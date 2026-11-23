@@ -1,4 +1,4 @@
-# Kokoro: model license
+# Kokoro: license
 
 | | |
 |---|---|

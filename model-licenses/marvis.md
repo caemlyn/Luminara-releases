@@ -1,4 +1,4 @@
-# Marvis: model license
+# Marvis: license
 
 | | |
 |---|---|

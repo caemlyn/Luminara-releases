@@ -1,4 +1,4 @@
-# Chatterbox: model license
+# Chatterbox: license
 
 | | |
 |---|---|

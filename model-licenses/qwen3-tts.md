@@ -1,4 +1,4 @@
-# Qwen3-TTS: model license
+# Qwen3-TTS: license
 
 | | |
 |---|---|

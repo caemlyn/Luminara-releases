@@ -1,4 +1,4 @@
-# Soprano: model license
+# Soprano: license
 
 | | |
 |---|---|

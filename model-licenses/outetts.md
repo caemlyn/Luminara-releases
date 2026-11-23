@@ -1,4 +1,4 @@
-# OuteTTS: model license
+# OuteTTS: license
 
 | | |
 |---|---|

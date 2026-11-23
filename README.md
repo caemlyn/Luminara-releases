@@ -131,16 +131,16 @@ longer books.
 These models listen to audio or clean it up, rather than speak. Install them in the **Speech and
 audio tools** section of the Voice Models page. All are optional.
 
-| Tool | What it does | Download | Hugging Face |
-|---|---|--:|---|
-| **Qwen3 voice copying** | Lets Qwen3-TTS read in a voice from your voice library. | 4.5 GB | [mlx-community/Qwen3-TTS-12Hz-1.7B-Base-bf16](https://huggingface.co/mlx-community/Qwen3-TTS-12Hz-1.7B-Base-bf16) |
-| **Whisper Large V3 Turbo** | Speech to text. Listens to the finished audiobook and compares it with the book's text (the audio check on Convert). | 1.6 GB | [mlx-community/whisper-large-v3-turbo-asr-fp16](https://huggingface.co/mlx-community/whisper-large-v3-turbo-asr-fp16) |
-| **Parakeet TDT** | Another speech-to-text model the audio check can use. | 3.3 GB | [mlx-community/parakeet-tdt-1.1b](https://huggingface.co/mlx-community/parakeet-tdt-1.1b) |
-| **Qwen3-ASR** | Another speech-to-text model the audio check can use. | 4.9 GB | [mlx-community/Qwen3-ASR-1.7B-bf16](https://huggingface.co/mlx-community/Qwen3-ASR-1.7B-bf16) |
-| **VibeVoice-ASR** | Another speech-to-text model the audio check can use. | 4.8 GB | [mlx-community/VibeVoice-ASR-bf16](https://huggingface.co/mlx-community/VibeVoice-ASR-bf16) |
-| **Qwen3 Forced Aligner** | Works out when each word is spoken, for read-along timing. | 1.6 GB | [mlx-community/Qwen3-ForcedAligner-0.6B-bf16](https://huggingface.co/mlx-community/Qwen3-ForcedAligner-0.6B-bf16) |
-| **MossFormer2 SE** | Speech enhancement: cleans up background noise and hiss. | 650 MB | [starkdmi/MossFormer2_SE_48K_MLX](https://huggingface.co/starkdmi/MossFormer2_SE_48K_MLX) |
-| **SAM-Audio Large** | Speech enhancement: separates the voice from other sounds in the recording. | 1.4 GB | [mlx-community/sam-audio-large](https://huggingface.co/mlx-community/sam-audio-large) |
+| Tool | What it does | Download | Hugging Face | License |
+|---|---|--:|---|---|
+| **Qwen3 voice copying** | Lets Qwen3-TTS read in a voice from your voice library. | 4.5 GB | [mlx-community/Qwen3-TTS-12Hz-1.7B-Base-bf16](https://huggingface.co/mlx-community/Qwen3-TTS-12Hz-1.7B-Base-bf16) | [Apache-2.0](model-licenses/qwen3-voice-copying.md) |
+| **Whisper Large V3 Turbo** | Speech to text. Listens to the finished audiobook and compares it with the book's text (the audio check on Convert). | 1.6 GB | [mlx-community/whisper-large-v3-turbo-asr-fp16](https://huggingface.co/mlx-community/whisper-large-v3-turbo-asr-fp16) | [MIT](model-licenses/whisper.md) |
+| **Parakeet TDT** | Another speech-to-text model the audio check can use. | 3.3 GB | [mlx-community/parakeet-tdt-1.1b](https://huggingface.co/mlx-community/parakeet-tdt-1.1b) | [CC-BY-4.0](model-licenses/parakeet.md) |
+| **Qwen3-ASR** | Another speech-to-text model the audio check can use. | 4.9 GB | [mlx-community/Qwen3-ASR-1.7B-bf16](https://huggingface.co/mlx-community/Qwen3-ASR-1.7B-bf16) | [Apache-2.0](model-licenses/qwen3-asr.md) |
+| **VibeVoice-ASR** | Another speech-to-text model the audio check can use. | 4.8 GB | [mlx-community/VibeVoice-ASR-bf16](https://huggingface.co/mlx-community/VibeVoice-ASR-bf16) | [MIT](model-licenses/vibevoice-asr.md) |
+| **Qwen3 Forced Aligner** | Works out when each word is spoken, for read-along timing. | 1.6 GB | [mlx-community/Qwen3-ForcedAligner-0.6B-bf16](https://huggingface.co/mlx-community/Qwen3-ForcedAligner-0.6B-bf16) | [Apache-2.0](model-licenses/qwen3-forced-aligner.md) |
+| **MossFormer2 SE** | Speech enhancement: cleans up background noise and hiss. | 650 MB | [starkdmi/MossFormer2_SE_48K_MLX](https://huggingface.co/starkdmi/MossFormer2_SE_48K_MLX) | [Apache-2.0](model-licenses/mossformer2.md) |
+| **SAM-Audio Large** | Speech enhancement: separates the voice from other sounds in the recording. | 1.4 GB | [mlx-community/sam-audio-large](https://huggingface.co/mlx-community/sam-audio-large) | [Meta SAM License](model-licenses/sam-audio.md) |
 
 Speech enhancement is set up in **Settings > Enhancement**. The audio check is the **Check the
 audio when finished** option on Convert, and needs one of the speech-to-text models.
@@ -205,8 +205,8 @@ Some allow personal use only, and some (CSM, for example) require you to accept 
 Face and add an access token in Settings first. Check a model's license before you use its audio
 for anything beyond personal listening.
 
-[model-licenses](model-licenses/README.md) has a copy of each voice model's license, read from
-Hugging Face on 2026-11-23:
+[model-licenses](model-licenses/README.md) has a copy of the license of each voice model and audio
+tool, read from Hugging Face on 2026-11-23:
 
 - **Permissive** (Apache-2.0 or MIT): Kokoro, Soprano, Chatterbox, Marvis, CSM, Dia, Ming-3.0,
   Qwen3-TTS, Maya. Orpheus is Apache-2.0 too, but is built on Llama 3.2, so Meta's Llama 3.2
@@ -216,6 +216,10 @@ Hugging Face on 2026-11-23:
 - **Fish Audio Community License**: Drama 3 and Drama 3 (4-bit). Free for research and
   non-commercial use. Commercial use only while your annual revenue is under USD 500,000, and
   never as a hosted text-to-speech service for others.
+
+The audio tools are Apache-2.0 or MIT (Qwen3 voice copying, Whisper, Qwen3-ASR, VibeVoice-ASR,
+Qwen3 Forced Aligner, MossFormer2), CC-BY-4.0 (Parakeet), and Meta's SAM License (SAM-Audio),
+which is free of charge but forbids some uses. Their licenses are in the same folder.
 
 Only convert books you have the right to use. Luminara does not remove DRM.
 
