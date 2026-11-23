@@ -85,23 +85,23 @@ voices, models and settings are kept.
 Install voice models on the **Voice Models** page. Each one is downloaded from Hugging Face the
 first time you install it and then runs on your Mac. Download sizes are the app's own estimates.
 
-| Model | Languages | Emotion | Copies a voice | Download | Hugging Face | Notes |
-|---|---|:-:|:-:|--:|---|---|
-| **Kokoro** | EN JA ZH FR ES IT PT HI |  |  | 355 MB | [mlx-community/Kokoro-82M-bf16](https://huggingface.co/mlx-community/Kokoro-82M-bf16) | The recommended first model. Small and fast, with many built-in voices. |
-| **Soprano** | EN |  |  | 217 MB | [mlx-community/Soprano-80M-bf16](https://huggingface.co/mlx-community/Soprano-80M-bf16) | Very fast. The smallest download. |
-| **Spark** | EN |  |  | 2.9 GB | [mlx-community/Spark-TTS-0.5B-bf16](https://huggingface.co/mlx-community/Spark-TTS-0.5B-bf16) | Compact and fast. |
-| **Chatterbox** | EN | Yes | Yes | 928 MB | [mlx-community/chatterbox-8bit](https://huggingface.co/mlx-community/chatterbox-8bit) |  |
-| **Marvis** | EN |  | Yes | 2.3 GB | [Marvis-AI/marvis-tts-250m-v0.1-MLX-fp16](https://huggingface.co/Marvis-AI/marvis-tts-250m-v0.1-MLX-fp16) |  |
-| **OuteTTS** | EN |  | Yes | 2.5 GB | [mlx-community/Llama-OuteTTS-1.0-1B-fp16](https://huggingface.co/mlx-community/Llama-OuteTTS-1.0-1B-fp16) |  |
-| **CSM** | EN |  | Yes | 6.2 GB | [mlx-community/csm-1b](https://huggingface.co/mlx-community/csm-1b) | Gated on Hugging Face: accept its terms and add an access token in Settings. |
-| **Dia** | EN |  |  | 3.5 GB | [mlx-community/Dia-1.6B-fp16](https://huggingface.co/mlx-community/Dia-1.6B-fp16) | Reads a two-speaker dialogue, with sounds that are not words. |
-| **Ming-3.0** | EN ZH DE ES FR KO JA |  | Yes | 3.0 GB | [mlx-community/Ming-3.0-tts-0.5B-bf16](https://huggingface.co/mlx-community/Ming-3.0-tts-0.5B-bf16) | Very clear, with five English voices. Reads in one steady tone. |
-| **Qwen3-TTS** | ZH EN JA KO DE FR RU PT ES IT | Yes |  | 4.5 GB | [mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-bf16](https://huggingface.co/mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-bf16) | Copies a voice with the separate Qwen3 voice copying download (below). |
-| **Orpheus** | EN | Yes |  | 6.6 GB | [mlx-community/orpheus-3b-0.1-ft-bf16](https://huggingface.co/mlx-community/orpheus-3b-0.1-ft-bf16) | The most expressive: reads with emotion tags such as laugh, sigh or gasp. |
-| **Maya** | EN |  | Yes | 6.0 GB | [dl3239491/maya1-mlx-fp16](https://huggingface.co/dl3239491/maya1-mlx-fp16) |  |
-| **Breeze TTS 2** | EN ZH | Yes | Yes | 7.6 GB | [mlx-community/Breeze-TTS-2-mlx](https://huggingface.co/mlx-community/Breeze-TTS-2-mlx) | Very natural. Can design a voice from a description and keep it. |
-| **Drama 3 (4-bit)** | EN ZH JA KO FR DE ES | Yes | Yes | 23.8 GB | [mlx-community/fish-audio-drama-3-4bit](https://huggingface.co/mlx-community/fish-audio-drama-3-4bit) | Drama 3 in a smaller download. Needs a Mac with 32 GB of memory. |
-| **Drama 3** | EN ZH JA KO FR DE ES | Yes | Yes | 72.4 GB | [mlx-community/fish-audio-drama-3-bf16](https://huggingface.co/mlx-community/fish-audio-drama-3-bf16) | Very expressive. Needs a Mac with 96 GB of memory. |
+| Model | Languages | Emotion | Copies a voice | Download | Hugging Face | License | Notes |
+|---|---|:-:|:-:|--:|---|---|---|
+| **Kokoro** | EN JA ZH FR ES IT PT HI |  |  | 355 MB | [mlx-community/Kokoro-82M-bf16](https://huggingface.co/mlx-community/Kokoro-82M-bf16) | [Apache-2.0](model-licenses/kokoro.md) | The recommended first model. Small and fast, with many built-in voices. |
+| **Soprano** | EN |  |  | 217 MB | [mlx-community/Soprano-80M-bf16](https://huggingface.co/mlx-community/Soprano-80M-bf16) | [Apache-2.0](model-licenses/soprano.md) | Very fast. The smallest download. |
+| **Spark** | EN |  |  | 2.9 GB | [mlx-community/Spark-TTS-0.5B-bf16](https://huggingface.co/mlx-community/Spark-TTS-0.5B-bf16) | [CC-BY-NC-SA-4.0](model-licenses/spark.md) | Compact and fast. |
+| **Chatterbox** | EN | Yes | Yes | 928 MB | [mlx-community/chatterbox-8bit](https://huggingface.co/mlx-community/chatterbox-8bit) | [Apache-2.0](model-licenses/chatterbox.md) |  |
+| **Marvis** | EN |  | Yes | 2.3 GB | [Marvis-AI/marvis-tts-250m-v0.1-MLX-fp16](https://huggingface.co/Marvis-AI/marvis-tts-250m-v0.1-MLX-fp16) | [Apache-2.0](model-licenses/marvis.md) |  |
+| **OuteTTS** | EN |  | Yes | 2.5 GB | [mlx-community/Llama-OuteTTS-1.0-1B-fp16](https://huggingface.co/mlx-community/Llama-OuteTTS-1.0-1B-fp16) | [CC-BY-NC-SA-4.0 + Llama 3.2](model-licenses/outetts.md) |  |
+| **CSM** | EN |  | Yes | 6.2 GB | [mlx-community/csm-1b](https://huggingface.co/mlx-community/csm-1b) | [Apache-2.0](model-licenses/csm.md) | Gated on Hugging Face: accept its terms and add an access token in Settings. |
+| **Dia** | EN |  |  | 3.5 GB | [mlx-community/Dia-1.6B-fp16](https://huggingface.co/mlx-community/Dia-1.6B-fp16) | [Apache-2.0](model-licenses/dia.md) | Reads a two-speaker dialogue, with sounds that are not words. |
+| **Ming-3.0** | EN ZH DE ES FR KO JA |  | Yes | 3.0 GB | [mlx-community/Ming-3.0-tts-0.5B-bf16](https://huggingface.co/mlx-community/Ming-3.0-tts-0.5B-bf16) | [MIT](model-licenses/ming-3.md) | Very clear, with five English voices. Reads in one steady tone. |
+| **Qwen3-TTS** | ZH EN JA KO DE FR RU PT ES IT | Yes |  | 4.5 GB | [mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-bf16](https://huggingface.co/mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-bf16) | [Apache-2.0](model-licenses/qwen3-tts.md) | Copies a voice with the separate Qwen3 voice copying download (below). |
+| **Orpheus** | EN | Yes |  | 6.6 GB | [mlx-community/orpheus-3b-0.1-ft-bf16](https://huggingface.co/mlx-community/orpheus-3b-0.1-ft-bf16) | [Apache-2.0 + Llama 3.2](model-licenses/orpheus.md) | The most expressive: reads with emotion tags such as laugh, sigh or gasp. |
+| **Maya** | EN |  | Yes | 6.0 GB | [dl3239491/maya1-mlx-fp16](https://huggingface.co/dl3239491/maya1-mlx-fp16) | [Apache-2.0](model-licenses/maya.md) |  |
+| **Breeze TTS 2** | EN ZH | Yes | Yes | 7.6 GB | [mlx-community/Breeze-TTS-2-mlx](https://huggingface.co/mlx-community/Breeze-TTS-2-mlx) | [BreezeBlue Research and Non-Commercial](model-licenses/breeze-tts-2.md) | Very natural. Can design a voice from a description and keep it. |
+| **Drama 3 (4-bit)** | EN ZH JA KO FR DE ES | Yes | Yes | 23.8 GB | [mlx-community/fish-audio-drama-3-4bit](https://huggingface.co/mlx-community/fish-audio-drama-3-4bit) | [Fish Audio Community License](model-licenses/drama-3-4bit.md) | Drama 3 in a smaller download. Needs a Mac with 32 GB of memory. |
+| **Drama 3** | EN ZH JA KO FR DE ES | Yes | Yes | 72.4 GB | [mlx-community/fish-audio-drama-3-bf16](https://huggingface.co/mlx-community/fish-audio-drama-3-bf16) | [Fish Audio Community License](model-licenses/drama-3.md) | Very expressive. Needs a Mac with 96 GB of memory. |
 
 Languages: EN English, ZH Chinese, JA Japanese, KO Korean, FR French, DE German, ES Spanish,
 IT Italian, PT Portuguese, RU Russian, HI Hindi. **Emotion**: reads with emotion. **Copies a
@@ -204,6 +204,18 @@ Voice and language models are not part of Luminara. They are downloaded from
 Some allow personal use only, and some (CSM, for example) require you to accept terms on Hugging
 Face and add an access token in Settings first. Check a model's license before you use its audio
 for anything beyond personal listening.
+
+[model-licenses](model-licenses/README.md) has a copy of each voice model's license, read from
+Hugging Face on 2026-11-23:
+
+- **Permissive** (Apache-2.0 or MIT): Kokoro, Soprano, Chatterbox, Marvis, CSM, Dia, Ming-3.0,
+  Qwen3-TTS, Maya. Orpheus is Apache-2.0 too, but is built on Llama 3.2, so Meta's Llama 3.2
+  Community License also applies.
+- **Non-commercial**: Spark and OuteTTS (CC-BY-NC-SA-4.0; OuteTTS's Llama parts are also under the
+  Llama 3.2 license), and Breeze TTS 2 (BreezeBlue Research and Non-Commercial License).
+- **Fish Audio Community License**: Drama 3 and Drama 3 (4-bit). Free for research and
+  non-commercial use. Commercial use only while your annual revenue is under USD 500,000, and
+  never as a hosted text-to-speech service for others.
 
 Only convert books you have the right to use. Luminara does not remove DRM.
 
