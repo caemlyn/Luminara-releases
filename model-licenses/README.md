@@ -40,3 +40,25 @@ personal listening.
 | Qwen3 Forced Aligner | Apache-2.0 | Permissive | [qwen3-forced-aligner.md](qwen3-forced-aligner.md) |
 | MossFormer2 SE | Apache-2.0 | Permissive | [mossformer2.md](mossformer2.md) |
 | SAM-Audio Large | Meta SAM License | Royalty-free, with use restrictions | [sam-audio.md](sam-audio.md) |
+
+## Language models
+
+Luminara does not download a language model. With LM Studio or Ollama you download and load
+the model yourself, and its own license applies. If you have one of these in LM Studio,
+Luminara chooses it ahead of the others, in this order:
+
+| Model | License | Kind | Details |
+|---|---|---|---|
+| Qwen3 14B | Apache-2.0 | Permissive | [qwen3-14b.md](qwen3-14b.md) |
+| QwQ 32B | Apache-2.0 | Permissive | [qwq-32b.md](qwq-32b.md) |
+| Llama 3.3 70B | Llama 3.3 Community License | Free to use, with Meta's terms | [llama-3.3-70b.md](llama-3.3-70b.md) |
+
+A cloud provider's models are not licensed to you; they are a service, used under the terms
+of your account with that provider:
+
+| Provider | Terms |
+|---|---|
+| Anthropic | [Commercial Terms of Service](https://www.anthropic.com/legal/commercial-terms) |
+| OpenAI | [Services Agreement](https://openai.com/policies/services-agreement/) |
+| MiniMax | [Terms of Service](https://www.minimax.io/platform/protocol/terms-of-service) |
+| Z.AI | [Terms of Use](https://docs.z.ai/legal-agreement/terms-of-use) |

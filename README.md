@@ -158,15 +158,19 @@ one, it can:
 
 Choose the provider in **Settings > Language Model**:
 
-| Provider | Where it runs | What you need |
-|---|---|---|
-| [LM Studio](https://lmstudio.ai) | On your Mac | LM Studio running with a model loaded. Pick the model from the list in Settings. |
-| [Ollama](https://ollama.com) | On your Mac | Ollama running with a model pulled. Pick the model from the list in Settings. |
-| Anthropic | Cloud | An API key. Default model `claude-opus-4-6`. |
-| OpenAI | Cloud | An API key. Default model `gpt-4o`. |
-| MiniMax | Cloud | An API key. Default model `MiniMax-M2.7`. |
-| Z.AI | Cloud | An API key. Default model `glm-5.1`. |
-| Custom | Wherever you host it | The address of any OpenAI-compatible server, and a key if it needs one. |
+| Provider | Where it runs | What you need | License or terms |
+|---|---|---|---|
+| [LM Studio](https://lmstudio.ai) | On your Mac | LM Studio running with a model loaded. Pick the model from the list in Settings. | The model's own license ([preferred models](model-licenses/README.md#language-models)) |
+| [Ollama](https://ollama.com) | On your Mac | Ollama running with a model pulled. Pick the model from the list in Settings. | The model's own license |
+| Anthropic | Cloud | An API key. Default model `claude-opus-4-6`. | [Commercial Terms of Service](https://www.anthropic.com/legal/commercial-terms) |
+| OpenAI | Cloud | An API key. Default model `gpt-4o`. | [Services Agreement](https://openai.com/policies/services-agreement/) |
+| MiniMax | Cloud | An API key. Default model `MiniMax-M2.7`. | [Terms of Service](https://www.minimax.io/platform/protocol/terms-of-service) |
+| Z.AI | Cloud | An API key. Default model `glm-5.1`. | [Terms of Use](https://docs.z.ai/legal-agreement/terms-of-use) |
+| Custom | Wherever you host it | The address of any OpenAI-compatible server, and a key if it needs one. | The license of the model you serve |
+
+Luminara does not download a language model, so the license of a local one is the license of
+the model you load. [model-licenses](model-licenses/README.md#language-models) has the licenses
+of the three models it prefers in LM Studio (Qwen3 14B, QwQ 32B and Llama 3.3 70B).
 
 API keys are stored in your macOS keychain. With LM Studio or Ollama, book text stays on your Mac.
 With a cloud provider, the text being analyzed is sent to that provider and billed to your account
